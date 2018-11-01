@@ -1,0 +1,7 @@
+1.) Drop the WBB-Verify.php file into the WBB root folder (not forum folder).
+2.) Add the WBB-Verify.cs file to your project
+3.) Generate a secrete 128 Character Key alphanumeric key and add them to the php and cs file.
+4.) Change the GroupID in the php file to the group id, which should act as whitelist group.
+5.) Add the URL to the php file in the cs file.
+
+The C# file will return a LoginResponse object, which contains a Status Code and the User Data.
